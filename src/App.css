@@ -1,38 +1,242 @@
-.App {
-  text-align: center;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ * {
+   font-family: 'lato', sans-serif;
+   text-decoration: none !important;
+   list-style-type: none !important;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .bg_color {
+   background: linear-gradient(107.6deg, #FF5501 8.81%, #B1106F 163.48%);
+   border-radius: 0px 0px 30px 30px;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .main_heading {
+   font-size: 60px;
+   line-height: 72px;
+   color: white;
+   max-width: 786px;
+   font-weight: 800;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .py_180 {
+   padding: 180px 0;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .para {
+   font-size: 16px;
+   line-height: 22px;
+   color: white;
+   opacity: 70%;
+ }
+
+ .bg_black {
+   background-color: #1e1e1e;
+   border-radius: 30px 30px 0 0;
+ }
+
+ .para_1 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22.4px;
+   color: white;
+   opacity: 70%;
+   max-width: 431px;
+ }
+
+ .py_78 {
+   padding: 78px 0 61px 0;
+ }
+
+ .about {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   padding-bottom: 24px;
+   color: white;
+ }
+
+ .footer_text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19.2px;
+   opacity: 70%;
+   color: white;
+ }
+
+ .bottom_line {
+   border-top: solid 1px #787878;
+   padding: 24px 0;
+ }
+
+ .logo {
+   font-size: 38px;
+   line-height: 45.6px;
+   font-weight: 700;
+   color: white;
+ }
+
+ .color_orange {
+   color: #ff5501;
+ }
+
+ .py_155 {
+   padding: 155px 0;
+ }
+
+ .update_heading {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 60px;
+ }
+
+ .update_para {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25.6px;
+   max-width: 578px;
+   color: #666666;
+ }
+
+ .input_modify {
+   width: 100%;
+   padding: 19px 16px 12px;
+   color: #808080;
+   outline: none;
+   border: solid 1px #c9c9c9;
+   border-radius: 4px;
+   font-size: 16px;
+   line-height: 25px;
+   font-weight: 400;
+ }
+
+ .message_button {
+   max-width: 155px;
+   padding: 14px 18px;
+   background: #92140c;
+   border-radius: 5px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 21px;
+   color: white;
+   margin-top: 49px;
+   border: 0;
+ }
+
+ .max_w1100 {
+   max-width: 1100px !important;
+ }
+
+ .img_w {
+   max-width: 388px;
+ }
+
+ .nav_bar {
+   height: 100px;
+   background: white;
+ }
+
+ .nav_logo {
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 45.6px;
+   color: black;
+ }
+
+ .nav_text {
+   font-size: 16px;
+   line-height: 19px;
+   color: black;
+ }
+
+ .card_box {
+   /* max-width: 365px; */
+   padding: 20px 30px;
+   background: #CFEEFF;
+   border-radius: 22px;
+   border: solid 2px white;
+ }
+ .bg_blue {
+   background: #43bbff;
+ }
+
+ .map_heading {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29.5px;
+   padding-top: 32px;
+ }
+
+ .map_para {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
+   color: #101010;
+ }
+
+ .pb_40 {
+   padding-bottom: 40px;
+ }
+
+ .read_more {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #007aff;
+ }
+
+ @media(max-width:991.99px) {
+   .overFlowHidden {
+     overflow: hidden !important;
+   }
+
+   label[for="menuIcon"] {
+     width: 36px;
+     height: 29px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     position: relative;
+     z-index: 7;
+   }
+
+   label[for="menuIcon"]>span {
+     height: 3px;
+     background: red;
+   }
+
+   .menuList {
+     background-color: white;
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     top: 0;
+     right: -100%;
+     transition: all 200ms linear;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     z-index: 6;
+   }
+
+   input:checked~ul.menuList {
+     right: 0;
+   }
+
+   .main_heading {
+     font-size: 30px;
+     line-height: 42px;
+   }
+
+   .update_heading {
+     font-size: 28px;
+     line-height: 40px;
+   }
+
+   .py_155 {
+     padding: 80px 0;
+   }
+
+ }
+
+ 
