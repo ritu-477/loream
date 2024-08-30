@@ -4,7 +4,7 @@ import Lorem from '../features/Lorem'
 import Header from '../../common/Header'
 import Footer from '../../common/Footer'
 
-function FEATURES() {
+function features() {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ function FEATURES() {
   )
 }
 
-export default FEATURES
+export default features
