@@ -3,6 +3,7 @@ import Hero from '../features/Hero'
 import Lorem from '../features/Lorem'
 import Header from '../../common/Header'
 import Footer from '../../common/Footer'
+import MapSwiper from '../features/MapSwiper'
 
 function features() {
   return (
@@ -10,6 +11,7 @@ function features() {
       <Header />
       <Hero />
       <Lorem />
+      <MapSwiper/>
       <Footer />
     </div>
   )
