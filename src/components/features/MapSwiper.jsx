@@ -11,11 +11,11 @@ const MapSwiper = () => {
         <div className="py-5">
             <div className="container">
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    pagination={{ clickable: true }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
+                    slidesPerView={3} 
+                    spaceBetween={30} 
+                    pagination={{ clickable: true }} 
+                    navigation={true} 
+                    modules={[Pagination, Navigation]} 
                     className="mymapSwiper"
                 >
                     {SWIPER_DATA.map((item, index) => (
