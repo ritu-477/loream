@@ -14,8 +14,9 @@ const MapSwiper = () => {
                     slidesPerView={3} 
                     spaceBetween={30} 
                     pagination={{ clickable: true }} 
-                    navigation={true} 
                     modules={[Pagination, Navigation]} 
+                    navigation={true} 
+                    loop={true}
                     className="mymapSwiper"
                 >
                     {SWIPER_DATA.map((item, index) => (

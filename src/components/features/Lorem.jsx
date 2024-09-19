@@ -16,7 +16,6 @@ const Lorem = () => {
               </div>
             </div>
           ))}
-
         </div>
       </div>
     </div>

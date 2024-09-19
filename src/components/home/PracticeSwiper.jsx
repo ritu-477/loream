@@ -15,33 +15,34 @@ export const PracticeSwiper = () => {
     return (
         <div className='pt-5'>
             <div className='container'>
-                <Swiper
-                    effect={'cube'}
-                    grabCursor={true}
-                    cubeEffect={{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 0.1,
-                        shadowScale: 0.9,
-                    }}
-                    navigation={true}
-                    pagination={{ clickable: true }} 
-                    modules={[EffectCube, Pagination, Navigation]}
-                    className="mySwiper"
-                >
-                    <SwiperSlide>
-                        <img className='w-100 max_w' src={sliderImg} alt="slider-image" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img className='w-100 max_w' src={sliderImage} alt="slider-image2" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img className='w-100 max_w' src={sliderImage3} alt="slider-image3" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img className='w-100 max_w' src={sliderImage4} alt="slider-image4" />
-                    </SwiperSlide>
-                </Swiper>
+                <div className="mySwiper">
+                    <Swiper
+                        effect={'cube'}
+                        grabCursor={true}
+                        cubeEffect={{
+                            shadow: false,
+                            slideShadows: false,
+                            shadowOffset: 0.1,
+                            shadowScale: 0.9,
+                        }}
+                        navigation={true}
+                        pagination={{ clickable: true }}
+                        modules={[EffectCube, Pagination, Navigation]}
+                    >
+                        <SwiperSlide>
+                            <img className='w-100 max_w' src={sliderImg} alt="slider-image" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='w-100 max_w' src={sliderImage} alt="slider-image2" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='w-100 max_w' src={sliderImage3} alt="slider-image3" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='w-100 max_w' src={sliderImage4} alt="slider-image4" />
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
             </div>
         </div>
     )

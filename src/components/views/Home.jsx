@@ -4,6 +4,7 @@ import Update from '../home/Update'
 import Header from '../../common/Header'
 import Footer from '../../common/Footer'
 import { PracticeSwiper } from '../home/PracticeSwiper'
+import EffectSlider from '../home/EffectSlider'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <HeroHome />
       <PracticeSwiper />
+      <EffectSlider/>
       <Update />
       <Footer />
     </>

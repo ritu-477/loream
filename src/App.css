@@ -217,13 +217,16 @@
  .mymapSwiper .swiper{
   max-width: 1180px !important;
  }
+ .mymapSwiper .button-prev{
+   left: 0;
+ }
 
  .swiper-horizontal>.swiper-pagination-bullets,
  .swiper-pagination-bullets.swiper-pagination-horizontal {
    bottom: -30px !important;
  }
 
- .swiper-button-prev {
+ .myswiper.swiper-button-prev {
    left: -10% !important;
  }
 
