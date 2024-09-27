@@ -3,7 +3,7 @@ import { CARDS_DATA } from '../../common/Helper'
 
 const Lorem = () => {
   return (
-    <div className='py_155'>
+    <div className='py_140'>
       <div className='container'>
         <h2 className='update_heading text-center mb-0 pb_40'>Lorem ipsum</h2>
         <div className='row'>

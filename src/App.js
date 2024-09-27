@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/views/Home';
 import Features from './components/views/Features';
 
-
 function App() {
   return (
     <>
