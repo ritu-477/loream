@@ -288,6 +288,13 @@
 .text_red{
   color: red;
 }
+.form_box{
+  border: solid 1px black;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+}
 
  @media(max-width:991.99px) {
    .overFlowHidden {
