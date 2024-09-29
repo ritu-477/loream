@@ -238,13 +238,10 @@
    pointer-events: none !important;
  }
 /*  */
-/* Add this to your CSS file or in a <style> tag in your component */
 .mymapSwiper {
   max-width: 1180px;
   margin: 0 auto;
-  /* Center the Swiper container */
   padding: 0 15px;
-  /* Optional: Add some horizontal padding */
 }
 
 .swiper-button-next,
@@ -294,6 +291,12 @@
   border-radius: 8px;
   max-width: 500px;
   margin: auto;
+}
+.eye_button{
+padding: 13.5px;
+right: 0;
+top: 0;
+border: solid 1px gray;
 }
 
  @media(max-width:991.99px) {
