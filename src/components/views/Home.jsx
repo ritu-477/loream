@@ -5,6 +5,7 @@ import Header from '../../common/Header'
 import Footer from '../../common/Footer'
 import { PracticeSwiper } from '../home/PracticeSwiper'
 import EffectSlider from '../home/EffectSlider'
+import FormValidation from '../home/FormValidation';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <>
       <Header />
       <HeroHome />
+      <FormValidation />
       <PracticeSwiper />
       <EffectSlider/>
       <Update />
