@@ -39,7 +39,7 @@ const Validation = () => {
         setErrors(newErrors);
 
         if (!Object.values(newErrors).some(error => error)) {
-            console.log("Submitted values:", formValue);
+           
             setFormValue({
                 Name: "",
                 Email: "",
@@ -47,6 +47,7 @@ const Validation = () => {
                 ConfirmPassword: "",
             });
         }
+        console.log("Submitted values:", formValue);
     };
 
     return (

@@ -78,7 +78,7 @@ const FormValidation = () => {
                                   type={passwordShow ? "text" : "password"}
                                   placeholder='Password'
                                   className='form'
-                                  onChange={(e) => setFormData({ ...formData, Password: e.target.value })}
+                                  onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                                   value={formData.password}
                               />
                               <button type="button" className='position-absolute eye_button d-flex align-items-center' onClick={() => showSetPassword(!passwordShow)}>
@@ -95,7 +95,7 @@ const FormValidation = () => {
                                   type={confirmPasswordShow ? "text" : "password"}
                                   placeholder='Confirm Password'
                                   className='form'
-                                  onChange={(e) => setFormData({ ...formData, ConfirmPassword: e.target.value })}
+                                  onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                                   value={formData.confirmPassword}
                               />
                               <button className='position-absolute eye_button d-flex align-items-center' type="button" onClick={() => confirmPasswordSet(!confirmPasswordShow)}>
